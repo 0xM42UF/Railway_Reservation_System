@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1666543143 source:e:\phitron\c programming practice\lab class 1\11111\main.cpp
+	<conio.h>
+	<cstdio>
+	<iostream>
+	<string.h>
+	<cstdlib>
+
