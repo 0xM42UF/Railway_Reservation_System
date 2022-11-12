@@ -340,7 +340,7 @@ int main()
 {
   /*  cout.width(5);
           cout.fill(' ');
-          cout<<"INDIAN RAILWAYS";
+          cout<<"#";
           cout.width(10);
           cout.fill(' ');
 */
@@ -402,14 +402,6 @@ while(1)
   }
 
 }
-//cout.width(10);
-//cout.fill('*');
-//cout<<"\n";
-
-//cout<<"\n";
-//cout.width();
-//cout.fill('*');
-
 return 0;
 
 }
