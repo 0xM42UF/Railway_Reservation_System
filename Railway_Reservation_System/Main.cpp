@@ -1,7 +1,11 @@
 #include <conio.h>
+
 #include <cstdio>
+
 #include <iostream>
+
 #include <string.h>
+
 #include <cstdlib>
 
 using namespace std;
@@ -17,17 +21,17 @@ class a
 public:
     void display();
 
-  void Booking();
+    void Booking();
 
-  void allotment();
+    void allotment();
 
-  void empty();
+    void empty();
 
-  void show();
+    void show();
 
 //void avail();
 
-  void position(int i);
+    void position(int i);
 
 }
 
@@ -37,19 +41,19 @@ void vline(char ch)
 
 {
 
-  for (int i=80;i>0;i--)
+    for (int i=80;i>0;i--)
 
-  cout<<ch;
+    cout<<ch;
 
 }
 
 void a::display()
 {
-    cout<<"train name:"<<endl;
+    cout<<"Train name:"<<endl;
     cout<<"1.Dhaka express"<<endl;
-    cout<<"2.Khulna express"<<endl;
+    cout<<"2.Gazi express"<<endl;
     cout<<"3.Barishal express"<<endl;
-    cout<<"4.Labukhali express"<<endl;
+    cout<<"4.City express"<<endl;
 }
 void a::Booking()
 
@@ -59,7 +63,7 @@ void a::Booking()
 
   cin>>train[p].trainn;
 
-  cout<<"\nEnter passenger's name: ";
+  cout<<"\nEnter Driver's name: ";
 
   cin>>train[p].driver;
 
@@ -320,30 +324,11 @@ void a::position(int l)
 
   }
 
-/*void a::avail()
-{
-  for(int n=0;n<p;n++)
-  {
-    vline('*');
-    cout<<"train no: \t"<<train[n].trainn<<"\nDriver: \t"<<train[n].driver
-    <<"\t\tArrival time: \t"<<train[n].arrival<<"\tDeparture Time: \t"
-    <<train[n].depart<<"\nFrom: \t\t"<<train[n].from<<"\t\tTo: \t\t\t"
-    <<train[n].to<<"\n";
-    vline('*');
-    vline('_');
-  }
-}
-*/
+
 
 int main()
 
 {
-  /*  cout.width(5);
-          cout.fill(' ');
-          cout<<"#";
-          cout.width(10);
-          cout.fill(' ');
-*/
 
 system("cls");
 
@@ -363,8 +348,6 @@ while(1)
   <<"3.Reservation\n\t\t\t"
 
   <<"4.Show\n\t\t\t"
-
-  //<<"4.trains Available. \n\t\t\t"
 
   <<"5.Exit\n\t\t\t"
   ;
@@ -391,10 +374,6 @@ while(1)
 
       break;
 
-   // case 4:  train[0].avail();
-
-    //  break;
-
     case 5:  exit(0);
     break;
 
@@ -402,6 +381,7 @@ while(1)
   }
 
 }
+
 return 0;
 
 }
